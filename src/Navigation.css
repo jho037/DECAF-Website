@@ -1,0 +1,20 @@
+.Nav {
+    height: 10%;
+    list-style: none;
+    margin: 0 0 1em 0;
+    width: 100%;
+    background-color: green;
+    padding: 0;
+}
+
+.Nav li{
+    float: left;
+}
+
+.Nav li a{
+    color: blue;
+    border-right: 1px solid  yellow;
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+}
