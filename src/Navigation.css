@@ -1,5 +1,5 @@
 .Nav {
-    height: 20%;
+    height: 0%;
     list-style: none;
     margin: 0;
     width: 100%;
@@ -8,7 +8,7 @@
 }
 
 .Nav li{
-    color: black;
+
 }
 
 .DECAF {
