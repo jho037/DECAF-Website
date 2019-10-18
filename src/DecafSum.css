@@ -1,0 +1,30 @@
+.Summary {
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    font-family: Andale Mono, monospace;
+    /* background-color: white; */
+}
+
+h1 {
+    display: block;
+    margin-bottom: -3%;
+    /* line-height: 1.6; */
+}
+
+h2 {
+    font-size: 100%;
+}
+
+p {
+    text-align: justify;
+    text-decoration: none;
+    font-size: 79%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
