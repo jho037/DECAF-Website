@@ -1,34 +1,42 @@
+/* body {
+    background-color: lightgrey;
+} */
+
 .Nav {
-    height: 0%;
+    height: 7.5%;
     list-style: none;
     margin: 0;
     width: 100%;
-    background-color: grey;
+    background-color: lightgrey;
     padding: 0;
 }
 
 .Nav li{
-
-}
-
-.DECAF {
-    float: left;
-    color: white;
-}
-
-.Nav li a{
     float: right;
-    color: black;
-    border-left: 1px solid  black;
+    border-left: 1px solid black;
+    color: blue;
+}
+
+.Nav li:last-child {
     display: block;
-    padding: 15px 15px;
+    color: yellow;
+    float: left;
+    font-size: 50px;
     text-decoration: none;
 }
 
+.Nav li a {
+    display: block;
+    padding: 15px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
 .Nav li a:hover:not(.active) {
-    background-color: darkgrey;
+    color: darkgrey;
 }
 
 .active {
-    background-color:pink;
+    color:black;
 }

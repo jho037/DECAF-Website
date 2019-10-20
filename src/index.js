@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Live from './Live';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <Live></Live>,
+    <App></App>,
     document.getElementById('root')
 )
 
