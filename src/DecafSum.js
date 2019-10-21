@@ -18,8 +18,11 @@ function DecafSum() {
              To activate the optimizations, see our <a href="https://github.com/decaf-project/DECAF/wiki/DECAF--plus-plus">DECAF++ Wiki</a> page.
             </p>
 
-            <img src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"></img>
+            <img src="https://raw.githubusercontent.com/decaf-project/DECAF/master/docs/SPEC.png"></img>
 
+            
+
+        
         </div>
     );
 }
