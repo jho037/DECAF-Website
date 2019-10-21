@@ -1,5 +1,6 @@
 import React from 'react';
 import './DecafSum.css';
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 
 function DecafSum() {
     return (
@@ -22,7 +23,9 @@ function DecafSum() {
 
             
 
-        
+            <TwitterTweetEmbed
+        tweetId={'1176978229871071232'}
+      />
         </div>
     );
 }
