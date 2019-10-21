@@ -1,7 +1,7 @@
 import React from 'react';
 import './DecafSum.css';
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
-
+import { Timeline } from 'react-twitter-widgets'
 function DecafSum() {
     return (
         <div className="Summary">
@@ -21,11 +21,16 @@ function DecafSum() {
 
             <img src="https://raw.githubusercontent.com/decaf-project/DECAF/master/docs/SPEC.png"></img>
 
-            
-
-            <TwitterTweetEmbed
-        tweetId={'1176978229871071232'}
-      />
+                  <Timeline
+                    dataSource={{
+                    sourceType: 'profile',
+                    screenName: 'heng_yin'
+                    }}
+                    options={{
+                    username: 'TwitterDev',
+                    height: '600'
+                    }}
+                />
         </div>
     );
 }

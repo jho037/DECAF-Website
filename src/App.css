@@ -1,18 +1,4 @@
-.App {
-    /* text-align: center; */
-    background-color: #282c34;
-    height: 100vh;
-  }
-  
-  .App-header {
-    /* background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    align-items: top;
-    justify-content: center;
-    font-size: calc(10px + 2vmin); */
-  }
-  
-  .App-link {
-    color: #09d3ac;
-  }
+.App{
+    height: 100%;
+    background-color: tan;
+}

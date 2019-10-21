@@ -3,12 +3,13 @@
 } */
 
 .Nav {
-    height: 7.6%;
+    height: 8vh;
     list-style: none;
     margin: 0;
     width: 100%;
     background-color: lightgrey;
     padding: 0;
+    top: 0;
 }
 
 .Nav li:last-child {
