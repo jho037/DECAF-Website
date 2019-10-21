@@ -6,8 +6,8 @@ import DecafSum from './DecafSum';
 function App() {
   return (
     <div className="App">
-        <Navigation></Navigation>
-        <DecafSum></DecafSum>
+      <Navigation></Navigation>
+      <DecafSum></DecafSum>
     </div>
   );
 }
