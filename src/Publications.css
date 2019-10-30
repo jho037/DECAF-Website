@@ -3,12 +3,14 @@
     background-color: green;
 }
 
-h1 {
+.Pub h1 {
     display: block;
     text-align: center;
 }
 
-p {
+.Pub p {
+    margin: 2%;
+    font-size: 100%;
     text-align: justify;
     text-decoration: none;
 }
