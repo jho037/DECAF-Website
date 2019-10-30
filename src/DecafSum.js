@@ -7,7 +7,7 @@ function DecafSum() {
         
         <div className="Summary">
             
-            <h1>DECAF++</h1>
+            <h1>DECAF</h1>
             <h2>(Dynamic Executable Code Analysis Framework)</h2>
             
             <p>DECAF++, the new version of DECAF, taint analysis is around 2X faster making it the fastest,
@@ -28,8 +28,7 @@ function DecafSum() {
                     screenName: 'heng_yin'
                     }}
                     options={{
-                    username: 'TwitterDev',
-                    height: '600'
+                    height: '800'
                     }}
                 />
         </div>

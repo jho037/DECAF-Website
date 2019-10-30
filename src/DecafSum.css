@@ -1,35 +1,36 @@
 .Summary {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-right: 20%;
     margin-left: 20%;
     /* font-family: Andale Mono, monospace; */
     /* background-color: white; */
 }
 
-h1 {
+.Summary h1 {
     display: block;
     text-align: center;
     margin-bottom: 2%;
+    font-size: 4em;
+    font-family: Tahoma, Geneva, sans-serif;
     /* line-height: 1.6; */
 }
 
-h2 {
-    font-size: 100%;
+.Summary h2 {
+    font-size: 1.5em;
     text-align: center;
 }
 
-p {
+.Summary p {
     text-align: justify;
     text-decoration: none;
-    font-size: 79%;
+    font-size: 1em;
 }
 
-img {
+.Summary img {
     max-width: 100%;
     width: 100%;
     height: auto;
     border-radius: 8px;
+    margin-bottom: 10%;
   }
-.tweet-cont{
-    display: inline;
-}
+
