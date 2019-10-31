@@ -1,16 +1,21 @@
 .Intro {
     height: 100%;
-    background-color: lightblue
+    background-color: #EAEAEA;
+    padding: 0;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-.Intro h1, h2, h3, h4, h5, h6 {
+.Intro h {
     display: block;
     text-align: center;
+    font-weight: bold;
+    font-size: 180%;
 }
 
-.Intro hr {
+/* .Intro hr {
     border: 1px solid yellow
-}
+} */
 
 .Intro p {
     margin: 2%;

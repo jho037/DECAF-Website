@@ -4,7 +4,7 @@ import './Introduction.css';
 function Introduction() {
     return (
         <div className="Intro">
-            <h1>Introduction</h1>
+            <h>Introduction</h>
             <p>DECAF (Dynamic Executable Code Analysis Framework) is the successor to the binary analysis techniques developed for TEMU (dynamic analysis component of 
                 <a href="http://bitblaze.cs.berkeley.edu/"> BitBlaze</a> ) as part of 
                 <a href="https://eng-cs.syr.edu/directory/?peopleid=13036"> Heng Yin's</a> work on 
@@ -17,7 +17,7 @@ function Introduction() {
             </p>
 
             <hr></hr>
-            <h2>Right-on-Time Virtual Machine Introspection</h2>
+            <h>Right-on-Time Virtual Machine Introspection</h>
             <p>Different with TEMU, DECAF doesn’t use guest driver to retrieve os-level semantics. 
                 The VMI component of DECAF is able to reconstruct a fresh OS-level view of the virtual machine, 
                 including processes, threads, code modules, and symbols to support binary analysis. Further, 
@@ -27,7 +27,7 @@ function Introduction() {
                 </p>
 
             <hr></hr>
-            <h3>Support for Multiple Platforms</h3>
+            <h>Support for Multiple Platforms</h>
             <p>Ideally, we would like to have the same analysis code (with minimum platform-specific code) to work for different CPU architectures 
                 (e.g, x86 and ARM) and different operating systems (e.g., Windows and Linux). It requires that the analysis framework hide the architecture 
                 and operating system specific details from the analysis plugins. Further, to make the analysis framework itself maintainable and extensible to 
@@ -36,7 +36,7 @@ function Introduction() {
                 </p>
                 
             <hr></hr>
-            <h4>Precise and Lossless Tainting</h4>
+            <h>Precise and Lossless Tainting</h>
             <p>DECAF ensures precise tainting by maintaining bit-level precision for CPU registers and memory, and inlining precise tainting rules in the translated code blocks. 
                 Thus, the taint status for each CPU register and memory location is processed and updated synchronously during the code execution of the virtual machine. 
                 The propagation of taint labels is done in an asynchronous manner . By implementing such a tainting logic mainly in the intermediate representation level 
@@ -44,14 +44,14 @@ function Introduction() {
                 </p>
             
             <hr></hr>
-            <h5>Event-driven programming interfaces</h5>
+            <h>Event-driven programming interfaces</h>
             <p>DECAF provides an event-driven programming interface. It means that the paradigm of ”instrument” in the translation phase and then analyze in the execution phase” 
                 is invisible to the analysis plugins. The analysis plugins only need to register for interested events and implement corresponding event handling functions. 
                 The details of code instrumentation are taken care of by the framework.
                 </p>
             
             <hr></hr>
-            <h6>Dynamic instrumentation management</h6>
+            <h>Dynamic instrumentation management</h>
             <p>To reduce runtime overhead, the instrumentation code is inserted into the translated code only when necessary. For example, when a plugin registers a function hook 
                 at a function’s entry point, the instrumentation code for this hook is only placed at the function entry point. When the plugin unregisters this function hook, 
                 the instrumentation code will also be removed from the translated code accordingly. To ease the development of plugins, the management of dynamic code instrumentation

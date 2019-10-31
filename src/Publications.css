@@ -1,11 +1,15 @@
 .Pub {
     height: 100vh;
-    background-color: green;
+    background-color: #EAEAEA;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-.Pub h1 {
+.Pub h {
     display: block;
     text-align: center;
+    font-weight: bold;
+    font-size: 180%;
 }
 
 .Pub p {
@@ -13,4 +17,5 @@
     font-size: 100%;
     text-align: justify;
     text-decoration: none;
+    margin-bottom: 4%;
 }

@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <Navigation></Navigation>
+      <footer><a href="https://github.com/decaf-project/DECAF" class="Git">GitHub</a></footer>
     </div>
   );
 }

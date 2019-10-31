@@ -11,11 +11,12 @@ function Navigation() {
         <Router>
             <div>
             <ul className="Nav">
-            <li><a href="https://github.com/decaf-project/DECAF/wiki">WikiPage</a></li>
+                <li><a href="https://github.com/decaf-project/DECAF/wiki">WikiPage</a></li>
                 <li><Link to= "/publications">Publications</Link></li>
                 <li><Link to= "/introduction">Introduction</Link></li>
                 <li><Link to= "/"><b>DECAF</b></Link></li>
             </ul>
+            
             <Switch>
                 <Route exact path="/">
                     <DecafSum />

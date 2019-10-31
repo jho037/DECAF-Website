@@ -9,28 +9,26 @@
     width: 100%;
     background-color: lightgrey;
     padding: 0;
-    top: 0;
 }
 
 .Nav li:last-child {
     display: block;
-    color: black;
     float: left;
     border-left: none;
-    font-size: 250%;
-    text-decoration: none;
+    font-size: 200%;
 }
 
 .Nav li{
+    display: block;
+    padding: 15px 15px;
+    font-size: 20px;
+    color: black;
     float: right;
-    border-left: 1px solid blue;
-    color: yellow;
+    /* border-left: 1px solid blue; */
 }
 
 .Nav li a {
     display: block;
-    padding: 15px 15px;
-    font-size: 20px;
     text-decoration: none;
     color: black;
 }
